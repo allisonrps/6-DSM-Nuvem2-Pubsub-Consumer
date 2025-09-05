@@ -14,7 +14,7 @@ app.get('/', (_req, res) => {
   res.send('Consumidor Pub/Sub rodando 🚀');
 });
 
-// Função para começar a ouvir mensagens
+//ouvir mensagens
 async function startPull() {
   const subscription = pubsub.subscription(subscriptionId);
 
