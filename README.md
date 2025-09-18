@@ -38,6 +38,23 @@ Este projeto é um consumidor de mensagens Pub/Sub para gerenciar reservas.
 - Processa e gerencia reservas no banco de dados.
 - API para criação e consulta de reservas.
 
+## Rotas da API
+
+- consulta todas as reservas:
+http://localhost:3000/reserves
+
+- consulta uma reserva especifica pelo uuid:
+http://localhost:3000/reserves/:uuid:
+
+- consulta uma reserva especifica pelo id do Quarto:
+http://localhost:3000/rooms/:id:/reserves
+
+- consulta uma reserva especifica pelo id do Hotel:
+http://localhost:3000/hotels/:id:/reserves
+
+- consulta uma reserva especifica pelo id do Cliente:
+http://localhost:3000/customers/:id:/reserves
+
 ## Requisitos
 
 - Node.js
